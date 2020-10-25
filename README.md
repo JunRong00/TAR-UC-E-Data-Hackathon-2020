@@ -22,6 +22,7 @@ In this section, we have described the backgound of the the business client (hos
 In this section, we have described each of the variables in the dataset and classify them into independent and dependent variables. We have also plotted a few graphs to visualise the relationship between each independent variable and the dependent variable.
 
 (#Data-Preparation)
+
 In this section, we have performed some data pre-processing job such as determining if there is any missing value, outlier and null value. Based on the dataset we have, no missing values or null values are found. However, we have identified a few outliers. To make sure that we can obtain a reliable and valid result, we clean the data by removing the outliers from the dataset. After that, we also normalise the data to make the value between 1 and 0. This step is very important so we can always get a good result.
 
 Data Modelling
