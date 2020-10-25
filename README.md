@@ -6,7 +6,7 @@ We are very delighted to participate this E-Data Hackathon Competition 2020 whic
 
 We have applied all the necessary data science skills that we have learnt in the subjects BACS3013 Data Science and BACS3074 Artificial Intelligence in the University College  to make this project a success.
 
-There are eight sections in total:
+There are 6 sections in total:
 
 Business Understanding
 Data Understanding
@@ -15,27 +15,24 @@ Data Modelling
 Data Evaluation
 References
 
-#Business Understanding
-In this section, we have described the backgound of the the business client (hospital), objectives, requiremetns, data mining success criteria, in ventory of resources, risk and solution.
+# Business Understanding
+In this section, we have described the backgound of the E-Commerce together with same examples.
 
-#Data Understanding
-In this section, we have described each of the variables in the dataset and classify them into independent and dependent variables. We have also plotted a few graphs to visualise the relationship between each independent variable and the dependent variable.
+# Data Understanding
+In this section, we have described the number of rows and columns in the identified dataset. Besides, we have also identified the 2 main variables/features that would be used for sentiment analysis.
 
-(#Data-Preparation)
+# Data-processing
+In this section, we have performed some data pre-processing job before performing data modelling. Our main focus is on the review text/comments and hence we have removed all other unwanted columns/features. Firstly, we check for missing values, in which the column is left blank. All we did is to remove the entire row that has the missing values. Then, we remove the puncutaion in each sentence, and turn all the characters into lower-case characters. Next, tokenisation process is conducted to split the sentence into a few words. After that, we remove stopwords such as "a," "and," "but," "how," "or," and "what", perform lemmetisation and remove non-English words.
 
-In this section, we have performed some data pre-processing job such as determining if there is any missing value, outlier and null value. Based on the dataset we have, no missing values or null values are found. However, we have identified a few outliers. To make sure that we can obtain a reliable and valid result, we clean the data by removing the outliers from the dataset. After that, we also normalise the data to make the value between 1 and 0. This step is very important so we can always get a good result.
+# Sentiment Analysis
+In this section, we can visualise the postive and negative words using the word cloud. After that, we perform feature generation using bag od words. Lastly, we split the dataset into the training and testing data as well as handling the imbalance data.
 
-Data Modelling
-In this section, we have performed the data modelling by usigng six different algorothms such as K-Nearest Neighbours (KNN), Logistic Regression (LR), Decision Tree (DT), Random Forest (RT), Support Vector Machine (SVM), and Naive Bayesian (NB). The accuracy, precision, recall, F1-score and Area Under Curve (AUC) are also calculated.
+# Data Modelling
+In this section, we have performed the data modelling by usigng four different algorothms such as  Random Forest (RT), Decision Tree (DT), Support Vector Machine (SVM), and Naive Bayes (NB). The accuracy, precision, recall, and Area Under Curve (AUC) are also computed.
 
-Evaluation
-In this section, we have described the accuracy, precision, recall, F1-score and AUC for each of the algorithms used in data modelling.
+# Data Evaluation
+In this section, we have described the accuracy, precision, recall, and AUC for each of the algorithms used in data modelling.
 
-Deployment
-In this section, we have identified the best model based on the precision, recall and F1-score. Besides, we have also briefly explained the steps taken to deploy the best model into Application Programming Interface (API).
-
-Conclusion
-In this section, we have described the pros and cons of using each algorithm.
-
-References
-In this section, the list of bibliographies or references are shown.
+# References
+1. Kaggle - https://www.kaggle.com/
+2. CRISP-DM - https://www.sv-europe.com/crisp-dm-methodology/
