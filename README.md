@@ -1,5 +1,5 @@
 # TAR-UC-E-Data-Hackathon-2020
-Team C11 - Team FALCON
+## Team C11 - Team FALCON
 We are students of Tunku Abdul Rahman University College (TARUC), one of the Premier Digital Technology Instituions (PDTIs) in Malaysia. We are currently pursuing second year in Bachelor of Computer Science (Honours) in Data Science.
 
 We are very delighted to participate this E-Data Hackathon Competition 2020 which was held from 23 to 25 October 2020. According to the organiser, 36 teams of students that have been shortlisted. All teams have been divided into 3 parallel sessions and teams in different session have been assigned to a topic. The topic that our team have been assigned to is sentiment analysis/Natural Language Processing on digital marketing. After much discussion, we have decided to work on the analysis of the comments by the female customers on  Women Clothing E-Commerce and classify them into positive or negative comments. The dataset is taken from the Kaggle Website
